@@ -9,9 +9,13 @@ body {
 }
 
 .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 10px;
 }
 
 .profile-image {
@@ -27,6 +31,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-right: -15px;
 }
 
 button {
@@ -45,4 +50,28 @@ a {
 
 ul {
   list-style-type: none;
+    display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+    gap: 10px;
+
+
+}
+
+.left{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.right{
+    gap: 5px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+
 }
